@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DatabaseTree_ListTables</key>
+	<string><![CDATA[
+SELECT
+  name
+FROM
+  sqlite_master
+WHERE
+  type = 'table'
+ORDER BY name ASC
+]]></string>
+	<key>DatabaseTree_ListViews</key>
+	<string><![CDATA[
+SELECT
+  name
+FROM
+  sqlite_master
+WHERE
+  type = 'view'
+ORDER BY name ASC
+]]></string>
+	<key>DatabaseTree_ColumnsInTable</key>
+	<string><![CDATA[
+PRAGMA table_info('{TABLE_NAME}');
+]]></string>
+
+</dict>
+</plist>

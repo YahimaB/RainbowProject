@@ -1,0 +1,22 @@
+{
+    "numberColor" : "#95c76f",
+    "version" : 3,
+    "commentColor" : "#52bd58",
+    "tableColor" : "#d28e5d",
+    "keywordColor" : "#00aba5",
+    "functionColor" : "#4670d8",
+    "backgroundColor" : "#1b1b1b",
+    "variableColor" : "#ce8485",
+    "columnColor" : "#8485ce",
+    "stringColor" : "#dc3c3c",
+    "plainTextColor" : "#ffffff",
+    "selectionColor" : "#5b5b5b",
+    "fontName" : "Monaco",
+    "fontSize" : 13,
+    "displayName" : "WWDC16",
+    "schemaColor" : "#b73999",
+
+    "lineNumberBackgroundColor":"3f4149",
+    "lineNumberFontColor":"929292"
+}
+

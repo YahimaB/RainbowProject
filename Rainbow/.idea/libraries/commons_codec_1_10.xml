@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/curvesapi-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-examples-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-excelant-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-ooxml-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-ooxml-schemas-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/poi-scratchpad-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ExcellPlugins/xmlbeans-2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

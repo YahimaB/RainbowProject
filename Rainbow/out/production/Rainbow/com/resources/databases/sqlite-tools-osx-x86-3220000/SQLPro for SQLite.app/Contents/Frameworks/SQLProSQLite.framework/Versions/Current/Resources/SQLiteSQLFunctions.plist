@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>COUNT</string>
+	<string>IFNULL</string>
+	<string>ABS</string>
+	<string>AVG</string>
+	<string>INSTR</string>
+	<string>CHANGES</string>
+	<string>HEX</string>
+	<string>CHAR</string>
+	<string>LAST_INSERT_ROWID</string>
+	<string>COALESCE</string>
+	<string>LENGTH</string>
+	<string>GLOB</string>
+	<string>LIKE</string>
+	<string>LIKELIHOOD</string>
+	<string>LIKELY</string>
+	<string>LOWER</string>
+	<string>LTRIM</string>
+	<string>SUM</string>
+	<string>UNLIKELY</string>
+	<string>MAX</string>
+	<string>UNICODE</string>
+	<string>MIN</string>
+	<string>ZEROBLOB</string>
+	<string>NULLIF</string>
+	<string>TYPEOF</string>
+	<string>PRINTIF</string>
+	<string>UPPER</string>
+	<string>TOTAL_CHANGES</string>
+	<string>QUOTE</string>
+	<string>RANDOM</string>
+	<string>RANDOMBLOB</string>
+	<string>REPLACE</string>
+	<string>TRIM</string>
+	<string>ROUND</string>
+	<string>RTRIM</string>
+	<string>SOUNDEX</string>
+	<string>SQLITE_SOURCE_ID</string>
+	<string>SQLITE_VERSION</string>
+	<string>SUBSTR</string>
+</array>
+</plist>

@@ -1,0 +1,25 @@
+{
+    "displayName":"Dark",
+    "version":12,
+
+    "plainTextColor":"DBDBDB",
+    "commentColor":"7D8C93",
+    "functionColor":"42c8ff",
+    "keywordColor":"9BDE9E",
+    "stringColor":"F75972",
+    "numberColor":"EDAC57",
+    "variableColor":"A3CAD6",
+
+    "schemaColor":"0080FF",
+    "tableColor":"FFFBB7",
+    "columnColor":"0080FF",
+
+    "backgroundColor":"202020",
+    "selectionColor":"65654D",
+
+    "fontName":"Monaco",
+    "fontSize":13,
+
+    "lineNumberBackgroundColor":"3f4149",
+    "lineNumberFontColor":"929292"
+}

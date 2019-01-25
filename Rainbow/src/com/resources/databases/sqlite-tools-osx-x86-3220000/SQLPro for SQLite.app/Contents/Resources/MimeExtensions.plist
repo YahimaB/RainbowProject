@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application/x-bzip</key>
+	<string>bz</string>
+	<key>application/x-bzip2</key>
+	<string>bz2</string>
+	<key>application/zip</key>
+	<string>zip</string>
+</dict>
+</plist>

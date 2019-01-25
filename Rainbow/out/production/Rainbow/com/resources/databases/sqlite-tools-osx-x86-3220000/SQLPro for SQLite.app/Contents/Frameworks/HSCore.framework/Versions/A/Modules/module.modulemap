@@ -1,0 +1,6 @@
+framework module HSCore {
+  umbrella header "HSCore.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+Need to copy & link with:
+libicudata.54.1.dylib
+libicui18n.54.1.dylib
+libicuuc.54.1.dylib
+
+Preprocessor macro:
+SQLITE_ENABLE_ICU=1

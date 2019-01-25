@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.application.NewStart">
+  <grid id="cbd77" binding="NewStartPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="1043" height="2976"/>
+    </constraints>
+    <properties>
+      <background color="-11141"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b885a" binding="Page1" layout-manager="GridLayoutManager" row-count="19" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11141"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="82ea1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Ф.И.О."/>
+            </properties>
+          </component>
+          <component id="6f290" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Дата рождения"/>
+            </properties>
+          </component>
+          <component id="f61f7" class="javax.swing.JTextField" binding="DoB">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="c373b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Место рождения"/>
+            </properties>
+          </component>
+          <component id="d572" class="javax.swing.JTextField" binding="PoB">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="d9fe2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Пол"/>
+            </properties>
+          </component>
+          <component id="abf73" class="javax.swing.JRadioButton" binding="GenderMale">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="195" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value="Мужской"/>
+            </properties>
+          </component>
+          <component id="cb430" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Национальность"/>
+            </properties>
+          </component>
+          <hspacer id="d3039">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="1eec1" class="javax.swing.JTextField" binding="Nationality">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="cbded" class="javax.swing.JTextField" binding="FullName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="8e4cc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="I. Персональные данные"/>
+            </properties>
+          </component>
+          <component id="c9b0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="II. Проживание в г.Астана"/>
+            </properties>
+          </component>
+          <component id="1e320" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Откуда прибыл(а) в г.Астана"/>
+            </properties>
+          </component>
+          <component id="4512a" class="javax.swing.JTextField" binding="AstanaFrom">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="3c91e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Когда прибыл(а) в г.Астана"/>
+            </properties>
+          </component>
+          <component id="f46f9" class="javax.swing.JTextField" binding="AstanaArrive">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="fdbbb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Длительность проживания в г.Астана"/>
+            </properties>
+          </component>
+          <component id="12e9f" class="javax.swing.JTextField" binding="AstanaAge">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="22edc" class="javax.swing.JButton" binding="Menu">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <label value="Menu"/>
+              <text value="Menu"/>
+            </properties>
+          </component>
+          <component id="86a1b" class="javax.swing.JButton" binding="autofill">
+            <constraints>
+              <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Brush Script MT" size="26" style="3"/>
+              <text value="Для ленивых"/>
+            </properties>
+          </component>
+          <component id="8e99b" class="javax.swing.JButton" binding="Page1To2">
+            <constraints>
+              <grid row="18" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <text value="Page 2&gt;&gt;       "/>
+            </properties>
+          </component>
+          <component id="8975c" class="javax.swing.JRadioButton" binding="GenderFemale">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="195" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value="Женский"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="69d2a" binding="Page2" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11141"/>
+          <enabled value="true"/>
+          <opaque value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="75995" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Ф.И.О. отца"/>
+            </properties>
+          </component>
+          <component id="8a93c" class="javax.swing.JTextField" binding="FatherName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bd46d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Дата рождения отца"/>
+            </properties>
+          </component>
+          <component id="e83cf" class="javax.swing.JTextField" binding="FatherDoB">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="275ba" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Ф.И.О. матери"/>
+            </properties>
+          </component>
+          <component id="e9a4c" class="javax.swing.JTextField" binding="MotherName">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="aafee" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Дата рождения матери"/>
+            </properties>
+          </component>
+          <component id="44b14" class="javax.swing.JTextField" binding="MotherDoB">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="34eb2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Семья"/>
+            </properties>
+          </component>
+          <component id="c6deb" class="javax.swing.JRadioButton" binding="FullFamily">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="195" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value="Полная"/>
+            </properties>
+          </component>
+          <hspacer id="b7569">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="a5d71" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="III. Информация о семье"/>
+            </properties>
+          </component>
+          <component id="4aad1" class="javax.swing.JButton" binding="Page2To1">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <label value="        &lt;&lt;Page 1"/>
+              <text value="        &lt;&lt;Page 1"/>
+            </properties>
+          </component>
+          <component id="19094" class="javax.swing.JButton" binding="Page2To3">
+            <constraints>
+              <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <text value="Page 3&gt;&gt;       "/>
+            </properties>
+          </component>
+          <component id="1414f" class="javax.swing.JRadioButton" binding="NotFullFamily">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="195" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value="Неполная"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b4651" binding="Page3" layout-manager="GridLayoutManager" row-count="18" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11141"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fb6aa" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="IV. Показатели Физического развития"/>
+            </properties>
+          </component>
+          <component id="b3379" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Масса тела"/>
+            </properties>
+          </component>
+          <component id="b47a8" class="javax.swing.JTextField" binding="Weight">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="180a5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Рост"/>
+            </properties>
+          </component>
+          <component id="982c" class="javax.swing.JTextField" binding="Height">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="e4700" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Окружность грудной клетки"/>
+            </properties>
+          </component>
+          <component id="4e75f" class="javax.swing.JTextField" binding="Length">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="a82c0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="V. Функциональные показатели"/>
+            </properties>
+          </component>
+          <component id="2eb32" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Артериальное давление"/>
+            </properties>
+          </component>
+          <component id="21413" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Систологическое АД"/>
+            </properties>
+          </component>
+          <component id="9d976" class="javax.swing.JTextField" binding="SysAD">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="51065" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Диастологическое АД"/>
+            </properties>
+          </component>
+          <component id="ac386" class="javax.swing.JTextField" binding="DiasAD">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="403b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Частота дыхательных движений"/>
+            </properties>
+          </component>
+          <component id="651ad" class="javax.swing.JTextField" binding="Breath">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="b9aae" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Частота сердечных сокращений"/>
+            </properties>
+          </component>
+          <component id="858a4" class="javax.swing.JTextField" binding="Heart">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e961" class="javax.swing.JButton" binding="Page3To2">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <label value="        &lt;&lt;Page 2"/>
+              <text value="        &lt;&lt;Page 2"/>
+            </properties>
+          </component>
+          <component id="a6616" class="javax.swing.JButton" binding="Page3To4">
+            <constraints>
+              <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <text value="Page 4&gt;&gt;       "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="29320" binding="Page4" layout-manager="GridLayoutManager" row-count="19" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11141"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a4494" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="VI. Физиометрическое развитие"/>
+            </properties>
+          </component>
+          <component id="48277" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Данные спирометрии"/>
+            </properties>
+          </component>
+          <component id="a1005" class="javax.swing.JTextField" binding="Spyrometry">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="2a46" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Динамометрия кисти"/>
+            </properties>
+          </component>
+          <component id="f6322" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Правая"/>
+            </properties>
+          </component>
+          <component id="9abb8" class="javax.swing.JTextField" binding="RightHand">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="be72" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Левая"/>
+            </properties>
+          </component>
+          <component id="9190e" class="javax.swing.JTextField" binding="LeftHand">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="1e4f1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="28" style="1"/>
+              <foreground color="-457984"/>
+              <text value="VII. Функциональная проба"/>
+            </properties>
+          </component>
+          <component id="a8b02" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="ЧСС после нагрузки"/>
+            </properties>
+          </component>
+          <component id="baa70" class="javax.swing.JTextField" binding="CHSS">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="af8f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Артериальное давление после нагрузки"/>
+            </properties>
+          </component>
+          <component id="5df47" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Систологическое АД"/>
+            </properties>
+          </component>
+          <component id="3cafa" class="javax.swing.JTextField" binding="NewSysAD">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="54aaf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="7" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="-Диастологическое АД"/>
+            </properties>
+          </component>
+          <component id="ac804" class="javax.swing.JTextField" binding="NewDiasAD">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+            </properties>
+          </component>
+          <component id="b041f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="5" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Rounded MT Bold" size="24" style="1"/>
+              <foreground color="-10997230"/>
+              <text value="Время восстановления"/>
+            </properties>
+          </component>
+          <component id="fa932" class="javax.swing.JTextField" binding="Recovery">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Apple Braille" size="26" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a8316" class="javax.swing.JButton" binding="Page4To3">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <label value="        &lt;&lt;Page 3"/>
+              <text value="        &lt;&lt;Page 3"/>
+            </properties>
+          </component>
+          <component id="302b6" class="javax.swing.JButton" binding="Finish">
+            <constraints>
+              <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="Arial Rounded MT Bold" size="36" style="1"/>
+              <foreground color="-516"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="0"/>
+              <text value="Finish"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Gender">
+      <member id="abf73"/>
+      <member id="8975c"/>
+    </group>
+    <group name="Family">
+      <member id="c6deb"/>
+      <member id="1414f"/>
+    </group>
+  </buttonGroups>
+</form>

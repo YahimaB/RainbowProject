@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationPreference-EnableTableRowCounts</key>
+	<true/>
+	<key>ApplicationPreference-ShowLingNumber</key>
+	<true/>
+	<key>ApplicationPreference-EnableSyntaxHighlighting</key>
+	<true/>
+	<key>ApplicationPreference-QueryMenuKeyEquivalent</key>
+	<string>E</string>
+	<key>ApplicationPreference-QueryMenuKeyEquivalentMask</key>
+	<real>1179648</real>
+	<key>ApplicationPreference-DisplayTimestampAsDate</key>
+	<true/>
+	<key>LastAdvertisement</key>
+	<date>2000-01-01T04:00:00Z</date>
+	<key>AllowFeedback</key>
+	<true/>
+	<key>FavoriteQueries</key>
+	<array/>
+	<key>ApplicationPreference-DisplayColumnsInTreeView</key>
+	<true/>
+	<key>ApplicationPreference-AutocompleteEnabled</key>
+	<true/>
+	<key>ApplicationPreference-ThemeName</key>
+	<string>Default</string>
+	<key>ApplicationPreference-AutoBracketsAndQuotes</key>
+	<true/>
+	<key>ApplicationPreference-QueryExecutionStyle</key>
+	<integer>0</integer>
+	<key>ApplicationPreference-SQLiteAutoReloadDatabase</key>
+	<true/>
+	<key>ApplicationPreference-QueryEditorLineWrap</key>
+	<true/>
+	<key>ApplicationPreference-EnableSystemTables</key>
+	<true/>
+	<key>HistoryQueries</key>
+	<array/>
+</dict>
+</plist>

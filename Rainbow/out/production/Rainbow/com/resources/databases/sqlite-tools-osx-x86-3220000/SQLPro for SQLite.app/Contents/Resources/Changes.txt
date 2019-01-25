@@ -1,0 +1,159 @@
+1.0.30:
++ Arrow keys can now be used to navigate tables when editing.
++ Updated internal SQLite version to 3.8.4.3. See https://sqlite.org/changes.html for version details.
++ When dragging a table/column to the query editor, the query editor now gets focussed correctly.
++ Fixed an issue where the table list could sometimes scroll to the top.
++ Fixed an issue that could cause the app to not properly detect when a database has been
+  modified by an external source.
++ A few improvements to autocomplete.
++ Fixed an issue when editing favorite queries.
++ Fixed an issue where users may be unable to edit rows containing a column without a datatype.
++ Fixed searching within the query editor.
++ Fixed an issue with unique columns which could cause application crashes on database load.
++ Fixed a crash that could happen if the query execution shortcut contained the return key.
+
+1.0.31:
++ Added social networking links.
++ Added an index row header to results and data view.
++ Fixed an issue that could sometimes cause binary columns to display as null.
++ Can now select a column when copying data results.
++ Generic performance improvements.
++ Fixed an issue where 'Add as Favorite' could cause a hang.
++ Tab/Shift+Tab now indents code rather than replacing it with the tab character (visual studios style behaviour).
++ CMD + ] (or CMD + [) also indents code (xcode style behaviour).
++ Added semi-colon as a CSV export/import option.
++ Fixed an issue that could cause column collations to be dropped.
+
+1.0.32:
++ Query results now have a context menu that includes 'Copy' and 'Copy with Headers'.
++ Fixed an issue that could cause auto-complete to work incorrectly for some users.
++ Fixed semicolon selection on CSV import.
++ Fixed an issue that would cause an EXPLAIN query to hang the UI.
++ Failed queries no longer get added to the query execution history.
+
+1.0.33:
++ Added themes. You can now pick from any of our built in themes, or customize your own.
++ Pre-emptive fixes for newer operating systems.
++ Fixed a few issues with auto-refresh.
++ Improved database loading performance.
+
+1.0.35:
++ Fixed an issue that would cause the data table to display blank after an export.
++ Fixed a few issues around themes.
+  - Colors would get slightly darker every time themes were saved.
+  - Renaming a theme was not working on all systems.
+  - Sometimes it would appear that themes had not saved changes.
++ Fixed an issue that could cause the application to crash when opening a database with
+  write-ahead logging enabled.
+
+1.0.36:
++ Fixed an issue where when running a CTE query SQLite Professional could freeze.
++ Fixed an issue that could cause crashes when updating a table that included unique columns.
++ Fixed an issue where unchecking 'Allow Null' on a new table would not work correctly.
++ Fixed an issue with auto-increment detection.
+
+1.0.38:
++ Added 'WITHOUT ROWID' support.
+
+1.0.40:
++ Improved overall performance.
++ Improved scrolling performance of data grids.
++ UI Update.
++ Primary key detection when executing custom queries.
++ Custom query results can now be edited inline if primary keys have been detected.
++ Some query results can now be expanded inline.
++ Added bracket matching to query editors (and a preference to disable).
++ Enabled 'Enhanced Query Syntax Precedence' for FTS.
++ Improvements to dependency resolutions.
++ Fixed an issue with newlines when exporting a CSV file.
++ Fixed an issue with exporting to MySQL.
++ Fixed an issue that could cause sql history to not work correctly.
++ Fixed an issue that could cause a crash when a timestamp column had a function as the
+  default value, and a new row was added via the data browser.
++ Fixed an issue that could case a large amount of temporary files to stick around.
+
+1.0.41:
++ Fixed an issue with creating virtual tabs from CSV.
++ Fixed an issue with importing that could sometimes cause failures.
++ Auto query recovery.
+
+1.0.43:
++ Added crash reporting.
++ Fixed an issue that could cause a crash on undo/redo.
++ Fixed an issue where the current query could get overwritten with a previous version.
+
+1.0.44:
++ App minimum version has been set to 10.8.
++ Fixed an issue where null objects in a JSON file could cause crashing when importing.
++ Added single cell selection.
++ Updated internal SQLite version to be 3.8.8.2.
++ Enabled support for the ICU library.
++ Fixed a crash if a user attempt to move the lowest column down.
++ Added support for uuid displays.
++ Fixed a crash that could happen when expanding rows on the data grid.
+
+1.0.45:
++ Fixed an issue which could cause crashes if executed queries contained placeholders such as
+  ? or :myColumn.
++ Fixed an issue with line numbers appearing incorrectly on OSX 10.10.3.
+
+1.0.46:
++ Improvements to syntax highlighting performance.
++ Fixed an issue where adding table entries via the UI may fail.
++ Fixed an issue where line numbers may not update properly when switching between tables.
++ Fixed a few issues with custom themes.
++ Fixed an issue with the app icon.
++ Improvments to 'Execute query in range' mode.
++ Query messages now include line number. Clicking the line number will focus the query
+  which was executed.
++ Added dragger to query view.
++ Added expand/collapse (disclosure indicator) to query view.
++ Slightly increased query result cell height (it was a bit small due to a bug).
+
+1.0.47:
++ Many improvements to the query editor.
++ Fixed an issue where some users may see a red app icon.
+
+1.0.48:
++ The history dropdown menu on the query tab now includes syntax highlighting.
++ Queries in the trigger designer table now include syntax highlighting.
++ New startup window (more Yosemite like).
+
+1.0.49:
++ Fixed an issue which could cause crashes on specific queries starting with single line comments.
++ Fixed an issue which could cause explain queries to crash.
+
+1.0.50:
++ Performance and bug fixes.
++ New app icon.
++ Fixed an issue where pragma queries could cause crashes.
++ Added system tables to the database tree.
++ Fixed an issue with reloading databases when the file has been replaced.
+
+1.0.51:
++ Fixed an issue with accessing WAL databases.
++ Updated history button to use the new SQLPro dialog.
++ Fixed a crash which could happen to some users.
+
+1.0.52:
++ Fixed an issue with database auto refresh.
++ Added an option to manually refresh database.
++ Added an option to disable auto database refresh.
++ Fixed a crashing issue which some users were seeing when importing files.
+
+1.0.53:
++ Added 'Edit' -> 'Format Query' menu item.
++ Fixed the 'Format Query' text editor context menu item.
++ Fixed an issue that would not allow certain characters of languages to be typed properly.
++ Structure tab now includes 'IF NOT EXISTS' on most creation scripts.
++ Fixed an issue which could sometimes cause crashes on JSON import.
++ Fixed an issue which could sometimes cause crashes when executing queries.
++ Fixed an issue where importing CSV files did not properly import NULLS.
+
+1.0.54
++ Both 'timestamp' and 'datetime' columns will adhere to the 'display as date' option.
++ Fixed a few issues around creating virtual CSV tables.
++ Updated internal SQLite version to 3.11.0.
++ Fixed an issue where saving could cause the UI to display no data (even though the data exists).
++ Fixed a few issues around foreign key handling.
++ Fixed a few crashing issues.
